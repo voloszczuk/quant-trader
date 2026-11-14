@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: quant-trader
+description: Modular Python framework for researching and backtesting systematic crypto trading strategies
+show_downloads: false

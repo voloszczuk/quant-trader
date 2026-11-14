@@ -1,4 +1,6 @@
-pandas
-numpy
-ccxt
-python-dotenv
+pandas>=2.2
+numpy>=1.26
+ccxt>=4.3
+python-dotenv>=1.0
+matplotlib>=3.8
+pytest>=8.0

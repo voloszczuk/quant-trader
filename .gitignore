@@ -1,5 +1,29 @@
+# Secrets
 .env
-*.log
-__pycache__/
-.venv/
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and data
+logs/*
+!logs/.gitkeep
+data/*
+!data/.gitkeep
 *.csv
+*.parquet
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Notebooks / IDE / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
