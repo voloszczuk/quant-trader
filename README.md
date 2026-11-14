@@ -31,6 +31,8 @@ python -m scripts.run_backtest --strategy momentum --plot
 
 Sample run: BTC/USD, daily bars, about two years of data. Regenerate with the command above.
 
+Single asset, single period, no out-of-sample validation. Illustrative only.
+
 ## Project structure
 
 ```
